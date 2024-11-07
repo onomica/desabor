@@ -26,10 +26,6 @@ meta:
       description: Two columns with a small right column
 
 assets:
-  css:
-    all:
-      - id: theme
-        path: assets/css/custom.css
 # If you're using this theme as child and you want to load
 # the parent theme assets, uncomment this line.
 #  use_parent_assets: true

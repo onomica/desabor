@@ -26,11 +26,11 @@
 
 /* Debug only */
 if (!defined('_PS_MODE_DEV_')) {
-define('_PS_MODE_DEV_', false);
+    define('_PS_MODE_DEV_', true);
 }
 /* Compatibility warning */
 if (!defined('_PS_DISPLAY_COMPATIBILITY_WARNING_')) {
-define('_PS_DISPLAY_COMPATIBILITY_WARNING_', false);
+    define('_PS_DISPLAY_COMPATIBILITY_WARNING_', true);
 }
 if (_PS_MODE_DEV_ === true) {
     $errorReportingLevel = E_ALL | E_STRICT;

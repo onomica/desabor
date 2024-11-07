@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="s1.gtmedia.world" id="73f99c9f-6b9c-4de9-8bab-4b70db465859" keyPath="$USER_HOME$/.ssh/id_rsa" port="22" nameFormat="DESCRIPTIVE" username="lijpwpfm" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>

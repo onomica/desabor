@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5965d831-3fa2-41e8-82d2-e5a49aedae24" name="1">
+        <fileTransfer rootFolder="/home/lijpwpfm/domains/dev.desabor.pl" accessType="SFTP" host="s1.gtmedia.world" port="22" sshConfigId="73f99c9f-6b9c-4de9-8bab-4b70db465859" sshConfig="lijpwpfm@s1.gtmedia.world:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
