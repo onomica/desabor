@@ -1,0 +1,166 @@
+/**
+ * 2007-2024 ETS-Soft
+ *
+ * NOTICE OF LICENSE
+ *
+ * This file is not open source! Each license that you purchased is only available for 1 wesite only.
+ * If you want to use this file on more websites (or projects), you need to purchase additional licenses.
+ * You are not allowed to redistribute, resell, lease, license, sub-license or offer our resources to any third party.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+ * versions in the future. If you wish to customize PrestaShop for your
+ * needs please contact us for extra customization service at an affordable price
+ *
+ * @author ETS-Soft <etssoft.jsc@gmail.com>
+ * @copyright  2007-2024 ETS-Soft
+ * @license    Valid for 1 website (or project) for each purchase of license
+ *  International Registered Trademark & Property of ETS-Soft
+ */
+.ets_av_content_popup .footer {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    justify-content: center;
+    -webkit-justify-content: center;
+    margin-top: 15px;
+}
+#ets_av_age_verification span.title_label {
+    width: 100%;
+    display: block;
+    margin-bottom: 3px;
+    color: #999;
+}
+.error_box .ets_av_error {
+    color: red;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+
+.error_box {
+    display: block;
+    min-height: 22px;
+}
+.ets_av_overload {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 9000;
+    overflow: auto;
+    opacity: 0;
+    visibility: hidden;
+}
+.ets_av_content_popup {
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    background: #fff;
+    border-radius: 3px;
+    padding: 30px;
+    text-align: center;
+}
+.ets_av_table {
+    width: 100%;
+    display: table;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.ets_av_table_cell {
+    display: table-cell;
+    align-items: center;
+    vertical-align: middle;
+    padding: 30px 0;
+}
+
+.ets_av_overload.active {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+.ets_av_content_popup select {
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#ets_av_age_verification .wrapper label {
+    margin: 0 5px 5px;
+    text-align: center;
+}
+.ets_av_content_popup .heading h4 {
+    margin-bottom: 20px;
+}
+h4.ets_av_title {
+    margin-bottom: 15px;
+    font-size: 25px;
+    line-height: 1.4;
+}
+.ets_av_ageverification img {
+    margin-bottom: 15px;
+    border: none;
+    padding: 0;
+}
+.ets_av_content_popup .footer a.btn.btn-default {
+    border: 1px solid #6c868e;
+    color: #6c868e;
+    cursor: pointer;
+}
+.ets_av_content_popup .footer .btn {
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: 130px;
+    outline: none!important;
+    box-shadow: none!important;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: none;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+.ets_av_content_popup .footer a.btn.btn-default.ets_av_cancel:hover {
+    color: #fff;
+    background-color: #b7ced3;
+    border-color: #b7ced3;
+}
+.ets_av_content_popup .ets_av_desc {
+    margin-bottom: 20px;
+}
+.ets_av_desc img {
+    margin-top: 5px;
+}
+.ets_av_content_popup .fieldset .heading h4 {
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+/* width */
+select::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+select::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 2px;
+}
+
+/* Handle */
+select::-webkit-scrollbar-thumb {
+    background: #777777;
+    border-radius: 2px;
+}
+
+/* Handle on hover */
+select::-webkit-scrollbar-thumb:hover {
+    background: #333333;
+}
+
+
+

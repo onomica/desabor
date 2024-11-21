@@ -1,0 +1,178 @@
+/**
+ * 2007-2024 ETS-Soft
+ *
+ * NOTICE OF LICENSE
+ *
+ * This file is not open source! Each license that you purchased is only available for 1 wesite only.
+ * If you want to use this file on more websites (or projects), you need to purchase additional licenses.
+ * You are not allowed to redistribute, resell, lease, license, sub-license or offer our resources to any third party.
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+ * versions in the future. If you wish to customize PrestaShop for your
+ * needs please contact us for extra customization service at an affordable price
+ *
+ * @author ETS-Soft <etssoft.jsc@gmail.com>
+ * @copyright  2007-2024 ETS-Soft
+ * @license    Valid for 1 website (or project) for each purchase of license
+ *  International Registered Trademark & Property of ETS-Soft
+ */
+.ets_av_desc {
+    margin-bottom: 15px;
+}
+html body:not(.adminstockmanagement):not(.adminpsthemecustoconfiguration):not(.adminpsthemecustoadvanced):not(.adminmodulesmanage):not(.adminaccess) .bootstrap [class*=col-] {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+[class*=col-] > .input-group[class*=col-]{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+body .bootstrap .form-horizontal .form-group > .form-group {
+    margin-left: 0;
+    margin-right: 0;
+}
+html body:not(.adminstockmanagement):not(.adminpsthemecustoconfiguration):not(.adminpsthemecustoadvanced):not(.adminmodulesmanage):not(.adminaccess) .bootstrap .row {
+    margin: 0 -15px;
+}
+html .bootstrap .form-horizontal .form-group{
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.ets_av_verification .form-group-wrapper, .ets_av_verification.form-group-preview {
+    width: 60%;
+    padding-right: 20px;
+}
+
+.ets_av_ageverification .footer .btn.btn-default {
+    text-transform: uppercase;
+}
+.bootstrap .form-horizontal.ets_av_verification .form-wrapper {
+    max-width: 100%;
+    display: flex;
+}
+.ets_av_ageverification .ets_av_title, .ets_av_ageverification .heading h4 {
+    font-weight: 600;
+    font-family: 'Open Sans';
+}
+.ets_av_ageverification .fieldset .wrapper label {
+    font-weight: normal;
+    margin: 0 4px;
+}
+.ets_av_verification .form-group.ets_av_color .col-lg-2 {
+    width: 33.33333%;
+}
+.ets_av_ageverification .footer .btn, .ets_av_ageverification .ets_av_footer .btn {
+    margin-left: 8px;
+    margin-right: 8px;
+    display: inline-block;
+    min-width: 110px;
+    text-align: center;
+}
+.ets_av_verification .form-group-preview {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.panel.ets_av_ageverification {
+    overflow: hidden;
+}
+.ets_av_ageverification .heading,
+.ets_av_ageverification .fieldset,
+.ets_av_ageverification .ets_av_title {
+    text-align: center;
+    padding: 5px 0;
+}
+.ets_av_ageverification .footer {
+    margin-top: 30px;
+}
+#ETS_AV_ICON-images-thumbnails img.imgm.img-thumbnail + p {
+    display: inline-block;
+}
+.ets_av_verification .form-group-preview .ets_av_ageverification {
+    max-width: 500px;
+}
+.form-group-preview .ets_av_overload {
+    position: sticky;
+    top: 150px;
+}
+#ETS_AV_ICON-images-thumbnails img {
+    max-width: 150px;
+}
+.ets_av_verification .form-group-preview img {
+    max-width: 100%;
+    height: auto;
+    padding: 0 0 5px;
+    border: none;
+    background: transparent;
+    border-radius: 0;
+}
+#ETS_AV_ICON-images-thumbnails a.btn.btn-default {
+    margin-left: 10px;
+}
+.form-wrapper .form-group-wrapper {
+    border-right: 1px solid #ccc;
+}
+.ets_av_ageverification img {
+    display: inline-block;
+    margin: 0 auto;
+}
+.panel.ets_av_ageverification {
+    text-align: center;
+}
+/* width */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 2px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #777777;
+    border-radius: 2px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #333333;
+}
+.ets_av_verification_type {
+    display: none;
+}
+.ets_av_verification_type.active {
+    display: block;
+}
+.ets_av_verification_type  .fieldset {
+    padding-top: 0;
+}
+
+.ets_av_verification_type .fieldset .heading {
+    padding-top: 0;
+}
+span.title_label {
+    margin-bottom: 3px;
+    display: block;
+}
+.ets_av_ageverification h4.ets_av_title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+select {
+    cursor: pointer;
+}
+.form-group-preview > h4 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+body .mce-container * {
+    white-space: normal;
+}
+
