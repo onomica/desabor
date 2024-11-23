@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-21 16:37:28
+/* Smarty version 4.3.4, created on 2024-11-22 09:02:21
   from '/home/lijpwpfm/domains/desabor.pl/public_html/modules/ets_blog/views/templates/hook/search_block.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673fa818e68380_22694160',
+  'unifunc' => 'content_67408eed95e825_40559376',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673fa818e68380_22694160 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67408eed95e825_40559376 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="block ets_block_search <?php echo htmlspecialchars((string) call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['ETS_BLOG_RTL_CLASS']->value,'html','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
 ">
     <h4 class="title_blog title_block"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Search in blog','mod'=>'ets_blog'),$_smarty_tpl ) );?>

@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'SangBleu Sunrise';
+  src: url('../fonts/sangbleu-sunrise.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'SangBleu Sunrise', sans-serif!important;
+}
+body, p, span, a, li, input, textarea, button {
+  font-family: 'Montserrat', sans-serif!important;
+}
 #wrapper.index {
   padding: 0;
 }
@@ -187,7 +205,7 @@
 }
 .custom-all-products-link {
   text-align: center;
-  margin: 50px 0 40px;
+  margin: 25px 0 40px;
 }
 .featured-products .all-product-link {
   font-size: 16px!important;
@@ -363,11 +381,12 @@
   cursor: pointer;
   position: relative;
   overflow: hidden;
-  width: 23%; /* Четыре изображения в ряд */
+  width: 23%;
   height: 70vh;
   border-radius: 4px;
   margin: 0 auto;
   transition: transform 0.3s ease;
+  line-height: 30px;
 }
 
 .four-images-container .four-images-wrapper .image-block img {
@@ -487,7 +506,7 @@
 }
 
 .text-block .subtitle {
-  color: #a3926b;
+  color: #F5EFEB;
   font-size: 14px;
   font-weight: bold;
   margin-bottom: 30px!important;
@@ -510,8 +529,8 @@
 }
 
 .text-block .btn {
-  background-color: #a3926b;
-  color: #fff;
+  background-color: #F5EFEB;
+  color: #2F4156;
   border: none;
   padding: 10px 20px;
   font-size: 16px;
@@ -522,7 +541,7 @@
 }
 
 .text-block .btn:hover {
-  background-color: #8a7859;
+  background-color: #C8D9E6;
 }
 
 .image-block {
@@ -694,7 +713,7 @@
   position: absolute;
   top: 10px;
   left: 10px;
-  background-color: #a3926b;
+  background-color: #F5EFEB;
   color: #fff;
   padding: 10px;
   text-align: center;
@@ -767,8 +786,10 @@
 
 
 .block_newsletter {
+  display: flex;
   background-color: #3b4456;
   padding-top: 35px;
+  max-width: 75%!important;
 }
 #footer > .container > .row {
   background-color: #3b4456;
@@ -801,8 +822,12 @@
 .wishlist-button-add .material-icons {
   color: #fff!important;
 }
-.dropdown .expand-more {
-  color: #fff!important;
+/*.dropdown .expand-more {*/
+/*  color: #fff!important;*/
+/*}*/
+#_desktop_language_selector {
+  margin: auto 10px;
+  text-align: center;
 }
 .info-banner {
   display: flex;
@@ -1048,11 +1073,11 @@
   font-size: 16px !important;
   font-weight: 400 !important;
   padding: 15px 20px 15px 25px;
-  background-color: #354155;
-  color: #fff;
+  color: #354155;
+  background-color: #F5EFEB;
 }
 .caption-button:hover {
-  background-color: #637b8c;
+  background-color: #C8D9E6;
 }
 .blog_view_all_button a,
 .blog_view_all_button {
@@ -1071,4 +1096,63 @@
 }
 .read_more {
   color: #637b8c!important;
+}
+.highlighted-informations {
+  padding: 0!important;
+}
+.atc_div.add-to-cart-button {
+  margin: 0!important;
+}
+#ets_addToCart {
+  margin: 0 !important;
+  width: 100%!important;
+}
+.language-selector .hidden-sm-down {
+  vertical-align: sub!important;
+}
+a.dropdown-item:hover {
+ color: #C8D9E6!important;
+}
+#header a:hover {
+  color: #C8D9E6!important;
+}
+#header button:hover {
+  color: #C8D9E6!important;
+}
+#header button span:hover {
+  color: #C8D9E6!important;
+}
+.btn-unstyle:focus {
+  color: #C8D9E6!important;
+}
+.btn-unstyle:focus .expand-more {
+  color: #C8D9E6!important;
+}
+.language-selector i:hover,
+.language-selector .expand-more:hover {
+  color: #C8D9E6!important;
+}
+.carousel .carousel-control .icon-next:hover i, .carousel .carousel-control .icon-prev:hover i, .dropdown:hover .expand-more, .page-my-account #content .links a:hover i, .search-widget form button[type=submit] .search:hover, .top-menu .sub-menu a:hover {
+  color: #C8D9E6!important;
+}
+.account-list a:hover, .block_newsletter form button[type=submit] .search:hover, .footer-container li a:hover {
+  color: #C8D9E6!important;
+}
+.blockreassurance_product {
+  display: none;
+}
+.btn-primary:hover {
+  background-color: #637b8c!important;
+}
+.btn-primary {
+  background-color: #354155!important;
+}
+.btn-primary:active {
+  background-color: #354155!important;
+}
+a.label:hover {
+  color: #C8D9E6!important;
+}
+#subcategories {
+  display: none;
 }

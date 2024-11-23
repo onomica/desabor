@@ -1,20 +1,20 @@
 {block name='header_banner'}
   <div class="header-banner">
+{*    <div class="banner-items">*}
+{*      <a href="#">DeSabor Warsaw</a>*}
+{*    </div>*}
+{*    <div class="banner-items">*}
+{*      <a href="18-gifts-boxes">Corporate Gift</a>*}
+{*    </div>*}
     <div class="banner-items">
-      <a href="#">DeSabor Warsaw</a>
+      <a href="2-home">The Black Friday! Startuja w piatek, 29.11!</a>
     </div>
-    <div class="banner-items">
-      <a href="18-gifts-boxes">Corporate Gift</a>
-    </div>
-    <div class="banner-items">
-      <a href="#">Promotion</a>
-    </div>
-    <div class="banner-items">
-      <a href="#">Contact us</a>
-    </div>
-    <div class="banner-func">
-      {hook h='displayBanner'}
-    </div>
+{*    <div class="banner-items">*}
+{*      <a href="#">Contact us</a>*}
+{*    </div>*}
+{*    <div class="banner-func">*}
+{*      {hook h='displayBanner'}*}
+{*    </div>*}
   </div>
 {/block}
 

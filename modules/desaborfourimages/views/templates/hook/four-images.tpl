@@ -3,7 +3,7 @@
     <div class="four-images-wrapper">
       <a href="16-gourmet-products" class="image-block">
         <div class="image-block">
-          <img src="{$module_dir}views/img/new1.jpg" alt="Example Image" />
+          <img src="{$module_dir}views/img/file.jpg" alt="Example Image" />
           <span class="image-title">Gourmet products</span>
         </div>
       </a>
@@ -15,7 +15,7 @@
       </a>
       <a href="17-sweet-salty" class="image-block">
         <div class="image-block">
-          <img src="{$module_dir}views/img/new2.jpg" alt="Example Image" />
+          <img src="{$module_dir}views/img/chips.jpg" alt="Example Image" />
           <span class="image-title">Salt & Spices</span>
         </div>
       </a>

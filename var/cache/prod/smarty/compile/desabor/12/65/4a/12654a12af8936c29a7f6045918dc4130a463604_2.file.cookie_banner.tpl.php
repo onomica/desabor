@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-21 16:37:28
+/* Smarty version 4.3.4, created on 2024-11-22 08:43:55
   from '/home/lijpwpfm/domains/desabor.pl/public_html/modules/ets_cookie_banner/views/templates/hook/cookie_banner.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673fa818a9dea0_04184057',
+  'unifunc' => 'content_67408a9b7417d3_83832566',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673fa818a9dea0_04184057 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67408a9b7417d3_83832566 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['ETS_CB_COOKIE_BANNER_CONTENT']->value) {?>
     <style>
         <?php echo $_smarty_tpl->tpl_vars['banner_css']->value;?>

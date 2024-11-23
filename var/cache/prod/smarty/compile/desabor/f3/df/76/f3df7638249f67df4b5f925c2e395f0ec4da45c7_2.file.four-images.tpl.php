@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-21 16:37:24
+/* Smarty version 4.3.4, created on 2024-11-22 08:42:43
   from '/home/lijpwpfm/domains/desabor.pl/public_html/modules/desaborfourimages/views/templates/hook/four-images.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673fa8141ef6a9_43886703',
+  'unifunc' => 'content_67408a5370af54_87259322',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f3df7638249f67df4b5f925c2e395f0ec4da45c7' => 
     array (
       0 => '/home/lijpwpfm/domains/desabor.pl/public_html/modules/desaborfourimages/views/templates/hook/four-images.tpl',
-      1 => 1731886463,
+      1 => 1732232290,
       2 => 'file',
     ),
   ),
@@ -20,14 +20,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673fa8141ef6a9_43886703 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67408a5370af54_87259322 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="featured-products clearfix">
   <div class="four-images-container">
     <div class="four-images-wrapper">
       <a href="16-gourmet-products" class="image-block">
         <div class="image-block">
           <img src="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['module_dir']->value, ENT_QUOTES, 'UTF-8');?>
-views/img/new1.jpg" alt="Example Image" />
+views/img/file.jpg" alt="Example Image" />
           <span class="image-title">Gourmet products</span>
         </div>
       </a>
@@ -41,7 +41,7 @@ views/img/img_2.jpg" alt="Example Image" />
       <a href="17-sweet-salty" class="image-block">
         <div class="image-block">
           <img src="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['module_dir']->value, ENT_QUOTES, 'UTF-8');?>
-views/img/new2.jpg" alt="Example Image" />
+views/img/chips.jpg" alt="Example Image" />
           <span class="image-title">Salt & Spices</span>
         </div>
       </a>

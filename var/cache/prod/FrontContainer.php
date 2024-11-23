@@ -965,6 +965,7 @@ class FrontContainer extends \PrestaShop\PrestaShop\Adapter\Container\LegacyCont
                 72 => 'ets_cookie_banner',
                 73 => 'ph_social_links',
                 74 => 'ph_recommendbycategories',
+                75 => 'ets_addtocart_fromlist',
             ],
             'ps_cache_dir' => '/home/lijpwpfm/domains/desabor.pl/public_html/var/cache/prod/',
             'mail_themes_uri' => '/mails/themes',

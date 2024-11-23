@@ -140,7 +140,7 @@ class __TwigTemplate_968e0414529275e2951604047479c49b80c6dec1d0033c05be74373b240
         <div class=\"row\">
           ";
         // line 85
-        $this->loadTemplate("@PrestaShop/Admin/Improve/Design/Theme/index.html.twig", "@PrestaShop/Admin/Improve/Design/Theme/index.html.twig", 85, "1850774684")->display(twig_array_merge($context, ["themeName" => twig_get_attribute($this->env, $this->source,         // line 86
+        $this->loadTemplate("@PrestaShop/Admin/Improve/Design/Theme/index.html.twig", "@PrestaShop/Admin/Improve/Design/Theme/index.html.twig", 85, "1806834410")->display(twig_array_merge($context, ["themeName" => twig_get_attribute($this->env, $this->source,         // line 86
 ($context["theme"] ?? null), "get", [0 => "name"], "method", false, false, false, 86), "themeDisplayName" => twig_get_attribute($this->env, $this->source,         // line 87
 ($context["theme"] ?? null), "get", [0 => "display_name"], "method", false, false, false, 87), "themeVersion" => twig_get_attribute($this->env, $this->source,         // line 88
 ($context["currentlyUsedTheme"] ?? null), "get", [0 => "version"], "method", false, false, false, 88), "themeAuthor" => twig_get_attribute($this->env, $this->source,         // line 89
@@ -171,7 +171,7 @@ class __TwigTemplate_968e0414529275e2951604047479c49b80c6dec1d0033c05be74373b240
             foreach ($context['_seq'] as $context["_key"] => $context["theme"]) {
                 // line 106
                 echo "              ";
-                $this->loadTemplate("@PrestaShop/Admin/Improve/Design/Theme/index.html.twig", "@PrestaShop/Admin/Improve/Design/Theme/index.html.twig", 106, "1343441312")->display(twig_array_merge($context, ["themeName" => twig_get_attribute($this->env, $this->source,                 // line 107
+                $this->loadTemplate("@PrestaShop/Admin/Improve/Design/Theme/index.html.twig", "@PrestaShop/Admin/Improve/Design/Theme/index.html.twig", 106, "1604819580")->display(twig_array_merge($context, ["themeName" => twig_get_attribute($this->env, $this->source,                 // line 107
 $context["theme"], "get", [0 => "name"], "method", false, false, false, 107), "themeDisplayName" => twig_get_attribute($this->env, $this->source,                 // line 108
 $context["theme"], "get", [0 => "display_name"], "method", false, false, false, 108), "themeVersion" => twig_get_attribute($this->env, $this->source,                 // line 109
 $context["theme"], "get", [0 => "version"], "method", false, false, false, 109), "themeAuthor" => twig_get_attribute($this->env, $this->source,                 // line 110
@@ -260,7 +260,7 @@ $context["theme"], "get", [0 => "author.url"], "method", false, false, false, 11
 
 
 /* @PrestaShop/Admin/Improve/Design/Theme/index.html.twig */
-class __TwigTemplate_968e0414529275e2951604047479c49b80c6dec1d0033c05be74373b240253b3___1850774684 extends Template
+class __TwigTemplate_968e0414529275e2951604047479c49b80c6dec1d0033c05be74373b240253b3___1806834410 extends Template
 {
     private $source;
     private $macros = [];
@@ -342,7 +342,7 @@ class __TwigTemplate_968e0414529275e2951604047479c49b80c6dec1d0033c05be74373b240
 
 
 /* @PrestaShop/Admin/Improve/Design/Theme/index.html.twig */
-class __TwigTemplate_968e0414529275e2951604047479c49b80c6dec1d0033c05be74373b240253b3___1343441312 extends Template
+class __TwigTemplate_968e0414529275e2951604047479c49b80c6dec1d0033c05be74373b240253b3___1604819580 extends Template
 {
     private $source;
     private $macros = [];

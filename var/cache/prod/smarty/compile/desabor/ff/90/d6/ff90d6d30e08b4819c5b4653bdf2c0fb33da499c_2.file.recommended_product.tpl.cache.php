@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-21 16:38:03
+/* Smarty version 4.3.4, created on 2024-11-22 09:43:42
   from '/home/lijpwpfm/domains/desabor.pl/public_html/modules/ph_recommendbycategories/views/templates/hook/recommended_product.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673fa83b3d1228_88018967',
+  'unifunc' => 'content_6740989e5c9352_98087373',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,8 +21,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:catalog/_partials/miniatures/product.tpl' => 2,
   ),
 ),false)) {
-function content_673fa83b3d1228_88018967 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->compiled->nocache_hash = '574627841673fa83b3c89d1_42889856';
+function content_6740989e5c9352_98087373 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->compiled->nocache_hash = '900003966740989e5c1932_21338588';
 if ($_smarty_tpl->tpl_vars['products']->value) {?>
     <section class="ph-recommend-products featured-products clearfix">
         <?php if ((isset($_smarty_tpl->tpl_vars['title']->value)) && $_smarty_tpl->tpl_vars['title']->value) {?>

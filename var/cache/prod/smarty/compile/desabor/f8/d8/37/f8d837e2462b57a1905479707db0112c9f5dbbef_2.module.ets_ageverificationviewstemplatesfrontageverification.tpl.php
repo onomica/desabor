@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-21 16:37:28
+/* Smarty version 4.3.4, created on 2024-11-22 08:43:39
   from 'module:ets_ageverificationviewstemplatesfrontageverification.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673fa818a6c833_60061104',
+  'unifunc' => 'content_67408a8be74d97_14639245',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673fa818a6c833_60061104 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67408a8be74d97_14639245 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="ets_av_overload active">
     <div class="ets_av_table">

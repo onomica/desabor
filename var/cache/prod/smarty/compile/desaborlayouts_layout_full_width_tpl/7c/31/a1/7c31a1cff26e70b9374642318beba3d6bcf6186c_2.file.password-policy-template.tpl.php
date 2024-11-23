@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-21 16:37:24
+/* Smarty version 4.3.4, created on 2024-11-22 08:42:43
   from '/home/lijpwpfm/domains/desabor.pl/public_html/themes/classic/templates/_partials/password-policy-template.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673fa8144c6503_54501142',
+  'unifunc' => 'content_67408a53aabab9_00742604',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673fa8144c6503_54501142 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67408a53aabab9_00742604 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 <template id="password-feedback">

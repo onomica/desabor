@@ -59,7 +59,7 @@ Disallow: /*controller=search
 Disallow: /*controller=statistics
 Disallow: /*controller=attachment
 Disallow: /*controller=guest-tracking
-# Directories for dev.desabor.pl
+# Directories for desabor.pl
 Disallow: /app/
 Disallow: /cache/
 Disallow: /classes/

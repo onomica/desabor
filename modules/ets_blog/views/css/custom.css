@@ -7,8 +7,8 @@
 .form-polls-body button[name="polls_cancel"]:hover,
 .form-polls-body button:hover
 {
-    background:#00cefd;
-    border-color:#00cefd;
+    background:#C8D9E6;
+    border-color:#C8D9E6;
 }
 .ets-blog-like-span.active, .be-tag-block .be-tags a, .be-tag-block .be-tags,
 .ets-blog-related-posts-meta-categories > a,
@@ -18,7 +18,7 @@
 .comment-content .post_title span a,
 .blog-managament-information .help-block a,
 .ets-blog-comment-info .post-author .ets_title_block {
-  color:#2fb5d2;
+  color:#2F4156;
 }
 .ets-block-comment-reply:hover,
 .ets_title_block:hover,
@@ -30,11 +30,11 @@
 .ets-blog-comment-info .post-author .ets_title_block:hover,
 .blog-managament-information .help-block a:hover,
 #form_blog a.ets_button_backtolist:hover{
-    color: #00cefd;
+    color: #C8D9E6;
 }
 .ets-blog-thumbnail-list.carousel .ets-blog-thumbnail-item.slick-current:before,
 .ets-blog-slider.carousel .slick-dots .slick-active button{
-    border-color: #2fb5d2;
+    border-color: #2F4156;
 }
 .ets-blog-form-comment .blog-submit .button,
 .blog-managament-information button[type="submit"],
@@ -49,7 +49,7 @@
 .form_reply_comment input[type="submit"],
 .ets_blog_loading .squaresWaveG
 {
-  background:#2fb5d2; 
+  background:#2F4156; 
 }
 
 .ets-blog-form-comment .blog-submit .button:hover,
@@ -58,7 +58,7 @@
 .add_new_post_blog a:hover,
 #form_blog button[type='submit']:hover
 {
-  background:#00cefd; 
+  background:#C8D9E6; 
 }
 .ets_blog_ltr_mode a:hover, 
 .ets-blog-wrapper-detail a:hover,
@@ -66,23 +66,23 @@
 .blog-main-page a:hover,
 .ets_button_backtolist:hover,
 .ets-block-comment-report:hover{
-    color: #00cefd;
+    color: #C8D9E6;
 }
 
 .form-polls-body button,
 .form_reply_comment input[type="submit"]{
-    border: 1px solid #2fb5d2;
+    border: 1px solid #2F4156;
 }
 .blog_view_all, .view_all_link {
-    background-color: #2fb5d2;
+    background-color: #2F4156;
 }
 .blog_view_all:hover, .view_all_link:hover,
 .ets-blog-form-comment .blog-submit .button:hover {
-    background-color: #00cefd;
+    background-color: #C8D9E6;
 }
 @keyframes bounce_squaresWaveG {
     0% {
-        background-color: #2fb5d2;
+        background-color: #2F4156;
     }
 
     100% {
@@ -92,7 +92,7 @@
 
 @-o-keyframes bounce_squaresWaveG {
     0% {
-        background-color: #2fb5d2;
+        background-color: #2F4156;
     }
 
     100% {
@@ -102,7 +102,7 @@
 
 @-ms-keyframes bounce_squaresWaveG {
     0% {
-        background-color: #2fb5d2;
+        background-color: #2F4156;
     }
 
     100% {
@@ -112,7 +112,7 @@
 
 @-webkit-keyframes bounce_squaresWaveG {
     0% {
-        background-color: #2fb5d2;
+        background-color: #2F4156;
     }
 
     100% {
@@ -122,7 +122,7 @@
 
 @-moz-keyframes bounce_squaresWaveG {
     0% {
-        background-color: #2fb5d2;
+        background-color: #2F4156;
     }
 
     100% {

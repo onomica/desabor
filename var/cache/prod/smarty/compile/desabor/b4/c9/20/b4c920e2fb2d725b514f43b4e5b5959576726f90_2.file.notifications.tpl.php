@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-21 16:37:24
+/* Smarty version 4.3.4, created on 2024-11-22 08:42:43
   from '/home/lijpwpfm/domains/desabor.pl/public_html/modules/desabornotifications/views/templates/hook/notifications.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673fa814249b45_93153058',
+  'unifunc' => 'content_67408a5372b015_67759045',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b4c920e2fb2d725b514f43b4e5b5959576726f90' => 
     array (
       0 => '/home/lijpwpfm/domains/desabor.pl/public_html/modules/desabornotifications/views/templates/hook/notifications.tpl',
-      1 => 1731861736,
+      1 => 1732279321,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673fa814249b45_93153058 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67408a5372b015_67759045 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 
@@ -136,7 +136,7 @@ xml version="1.0" encoding="utf-8"<?php echo '?>'; ?>
     <p>Zapraszamy do naszego sklepu stacjonarnego w sercu miasta, gdzie oferujemy szeroki wybór wyselekcjonowanych win, serów i innych przysmaków</p>
     <div class="image-container">
       <img src="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['module_dir']->value, ENT_QUOTES, 'UTF-8');?>
-views/img/club.jpg" alt="The Cocktail" />
+views/img/reight-map.jpg" alt="The Cocktail" />
     </div>
   </div>
   <div class="right-block">

@@ -168,7 +168,7 @@
     <h2>Odwiedź nas na Chmielnej 106</h2>
     <p>Zapraszamy do naszego sklepu stacjonarnego w sercu miasta, gdzie oferujemy szeroki wybór wyselekcjonowanych win, serów i innych przysmaków</p>
     <div class="image-container">
-      <img src="{$module_dir}views/img/club.jpg" alt="The Cocktail" />
+      <img src="{$module_dir}views/img/reight-map.jpg" alt="The Cocktail" />
     </div>
   </div>
   <div class="right-block">
