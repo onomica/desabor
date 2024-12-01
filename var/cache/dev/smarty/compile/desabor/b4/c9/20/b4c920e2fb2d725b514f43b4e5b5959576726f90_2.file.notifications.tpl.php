@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-13 20:29:42
+/* Smarty version 4.3.4, created on 2024-11-27 15:56:31
   from '/home/lijpwpfm/domains/desabor.pl/public_html/modules/desabornotifications/views/templates/hook/notifications.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67355286625127_69911029',
+  'unifunc' => 'content_6747877f117ff1_81655573',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b4c920e2fb2d725b514f43b4e5b5959576726f90' => 
     array (
       0 => '/home/lijpwpfm/domains/desabor.pl/public_html/modules/desabornotifications/views/templates/hook/notifications.tpl',
-      1 => 1731546369,
+      1 => 1732660711,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67355286625127_69911029 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6747877f117ff1_81655573 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
 
@@ -38,7 +38,7 @@ xml version="1.0" encoding="utf-8"<?php echo '?>'; ?>
     </span>
 
     <div class="info-text">
-      <h3 class="info-title">Pick & Collect</h3>
+      <h3 class="info-title">Wybierz i zbierz</h3>
       <p class="info-subtitle">Nagroda za lojalność</p>
     </div>
   </div>
@@ -136,12 +136,15 @@ xml version="1.0" encoding="utf-8"<?php echo '?>'; ?>
     <p>Zapraszamy do naszego sklepu stacjonarnego w sercu miasta, gdzie oferujemy szeroki wybór wyselekcjonowanych win, serów i innych przysmaków</p>
     <div class="image-container">
       <img src="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['module_dir']->value, ENT_QUOTES, 'UTF-8');?>
-views/img/club.jpg" alt="The Cocktail" />
+views/img/reight-map.jpg" alt="The Cocktail" />
     </div>
   </div>
   <div class="right-block">
-    <div class="map-container" style="height: 500px; width: 100%;">
-      <!-- Встраивание карты через iframe -->
+    <div class="above-map-image">
+      <img src="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['module_dir']->value, ENT_QUOTES, 'UTF-8');?>
+views/img/desabor.jpg" alt="The Cocktail" />
+    </div>
+    <div class="map-container" style="height: 250px; width: 100%;">
       <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.007877550159!2d20.9984942!3d52.2288965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd067273c509%3A0x92a092b1d9dea55d!2sDesabor%20Warsaw%20%7C%20Spanish%20Gourmet%20%26%20Wine!5e0!3m2!1sen!2spl!4v1698784787952!5m2!1sen!2spl"
               width="100%"

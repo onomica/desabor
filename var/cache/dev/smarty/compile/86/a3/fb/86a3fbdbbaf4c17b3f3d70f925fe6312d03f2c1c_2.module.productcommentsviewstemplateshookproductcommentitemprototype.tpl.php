@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-13 20:26:30
+/* Smarty version 4.3.4, created on 2024-11-27 16:08:05
   from 'module:productcommentsviewstemplateshookproductcommentitemprototype.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673551c63c4aa3_40225776',
+  'unifunc' => 'content_67478a350c13a6_57054744',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673551c63c4aa3_40225776 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67478a350c13a6_57054744 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /home/lijpwpfm/domains/desabor.pl/public_html/modules/productcomments/views/templates/hook/product-comment-item-prototype.tpl -->
 <div class="product-comment-list-item row" data-product-comment-id="@COMMENT_ID@" data-product-id="@PRODUCT_ID@">
   <div class="col-sm-3 comment-infos">

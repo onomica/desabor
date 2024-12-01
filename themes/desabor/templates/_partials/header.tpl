@@ -7,7 +7,7 @@
 {*      <a href="18-gifts-boxes">Corporate Gift</a>*}
 {*    </div>*}
     <div class="banner-items">
-      <a href="2-home">The Black Friday! Startuja w piatek, 29.11!</a>
+      <a href="2-home">Tylko 3 dni - 20% zniżki na wszystko. Użyj kodu promocyjnego BLACKFRIDAY</a>
     </div>
 {*    <div class="banner-items">*}
 {*      <a href="#">Contact us</a>*}

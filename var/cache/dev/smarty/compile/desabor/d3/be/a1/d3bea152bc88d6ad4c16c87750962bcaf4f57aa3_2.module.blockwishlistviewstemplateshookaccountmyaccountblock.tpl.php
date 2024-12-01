@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-13 20:30:59
+/* Smarty version 4.3.4, created on 2024-11-25 19:04:23
   from 'module:blockwishlistviewstemplateshookaccountmyaccountblock.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673552d3cb3386_97698177',
+  'unifunc' => 'content_674510875c4c03_44547620',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673552d3cb3386_97698177 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674510875c4c03_44547620 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /home/lijpwpfm/domains/desabor.pl/public_html/modules/blockwishlist/views/templates/hook/account/myaccount-block.tpl -->
 <?php if ($_smarty_tpl->tpl_vars['customer']->value['is_logged']) {?>
   <li>

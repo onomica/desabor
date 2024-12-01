@@ -40,7 +40,7 @@
     <p class="description">
       DeSabor powstało z pasji do kulinariów, podróży i zamiłowania do śródziemnomorskiego stylu życia. Założycielem firmy jest rodowity Hiszpan, który postawił sobie za cel przybliżenie kultury, smaków i dziedzictwa Hiszpanii swoim polskim sąsiadom.
     </p>
-    <button class="btn">Dowiedz się więcej &rarr;</button>
+    <a href="content/4-about-us" class="btn">Dowiedz się więcej &rarr;</a>
   </div>
   <div class="image-block">
     <img src="{$module_dir}views/img/about-us.jpg" alt="Example Image" />
@@ -54,7 +54,7 @@
     <p class="description">
       DeSabor Club to dostęp do najwyższej jakości produktów, limitowanych edycji i ekskluzywnych promocji. Dołącz, zbieraj punkty i korzystaj z wyjątkowych wydarzeń dla członków!
     </p>
-    <button class="btn">Zapisz się teraz &rarr;</button>
+    <a href="contact-us" class="btn">Zapisz się teraz &rarr;</a>
   </div>
 </div>
 

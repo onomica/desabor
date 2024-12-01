@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-13 20:26:30
+/* Smarty version 4.3.4, created on 2024-11-27 16:08:05
   from 'module:productcommentsviewstemplateshookproductcommentslist.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673551c63b9e60_75839358',
+  'unifunc' => 'content_67478a350b21a0_59175408',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -25,7 +25,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'module:productcomments/views/templates/hook/confirm-modal.tpl' => 1,
   ),
 ),false)) {
-function content_673551c63b9e60_75839358 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67478a350b21a0_59175408 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /home/lijpwpfm/domains/desabor.pl/public_html/modules/productcomments/views/templates/hook/product-comments-list.tpl --><?php echo '<script'; ?>
  type="text/javascript">
   var productCommentUpdatePostErrorMessage = '<?php echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Sorry, your review appreciation cannot be sent.','d'=>'Modules.Productcomments.Shop'),$_smarty_tpl ) ),'javascript' ));?>

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-13 20:30:59
+/* Smarty version 4.3.4, created on 2024-11-25 19:04:23
   from 'module:ps_languageselectorps_languageselector.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673552d3bc25e0_75243192',
+  'unifunc' => 'content_674510874ce482_94955216',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673552d3bc25e0_75243192 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674510874ce482_94955216 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /home/lijpwpfm/domains/desabor.pl/public_html/themes/desabor/modules/ps_languageselector/ps_languageselector.tpl --><div id="_desktop_language_selector">
   <div class="language-selector-wrapper">
     <span id="language-selector-label" class="hidden-md-up"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Language:','d'=>'Shop.Theme.Global'),$_smarty_tpl ) );?>

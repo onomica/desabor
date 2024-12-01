@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-13 20:30:59
+/* Smarty version 4.3.4, created on 2024-11-25 19:04:23
   from 'module:blockwishlistviewstemplatescomponentsmodalsaddtowishlist.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673552d3cd37d8_09472089',
+  'unifunc' => 'content_674510875dccb2_73107486',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673552d3cd37d8_09472089 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674510875dccb2_73107486 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /home/lijpwpfm/domains/desabor.pl/public_html/modules/blockwishlist/views/templates/components/modals/add-to-wishlist.tpl -->
 <div
   class="wishlist-add-to"

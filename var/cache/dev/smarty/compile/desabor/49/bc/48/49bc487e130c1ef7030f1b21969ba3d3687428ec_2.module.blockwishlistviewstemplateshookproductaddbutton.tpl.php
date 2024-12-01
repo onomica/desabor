@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-13 20:26:30
+/* Smarty version 4.3.4, created on 2024-11-27 16:08:05
   from 'module:blockwishlistviewstemplateshookproductaddbutton.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673551c6370aa6_17191827',
+  'unifunc' => 'content_67478a3504be71_49594531',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673551c6370aa6_17191827 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67478a3504be71_49594531 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /home/lijpwpfm/domains/desabor.pl/public_html/modules/blockwishlist/views/templates/hook/product/add-button.tpl --><div
   class="wishlist-button"
   data-url="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['url']->value, ENT_QUOTES, 'UTF-8');?>

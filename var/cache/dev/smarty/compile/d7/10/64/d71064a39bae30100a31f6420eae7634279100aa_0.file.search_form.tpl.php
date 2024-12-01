@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-13 20:30:56
+/* Smarty version 4.3.4, created on 2024-11-25 19:04:21
   from '/home/lijpwpfm/domains/desabor.pl/public_html/admin123/themes/new-theme/template/components/layout/search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673552d0dd3bd0_50493303',
+  'unifunc' => 'content_67451085c49f96_10257494',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673552d0dd3bd0_50493303 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67451085c49f96_10257494 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <form id="header_search"
       class="bo_search_form dropdown-form js-dropdown-form collapsed"

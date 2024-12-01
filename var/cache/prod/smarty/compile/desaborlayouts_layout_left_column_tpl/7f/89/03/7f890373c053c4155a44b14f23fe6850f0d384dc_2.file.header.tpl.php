@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-22 09:15:27
+/* Smarty version 4.3.4, created on 2024-11-30 08:46:22
   from '/home/lijpwpfm/domains/desabor.pl/public_html/themes/desabor/templates/_partials/header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_674091ffef0964_89465028',
+  'unifunc' => 'content_674b172e58d423_44190199',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7f890373c053c4155a44b14f23fe6850f0d384dc' => 
     array (
       0 => '/home/lijpwpfm/domains/desabor.pl/public_html/themes/desabor/templates/_partials/header.tpl',
-      1 => 1732279515,
+      1 => 1732834024,
       2 => 'file',
     ),
   ),
@@ -20,28 +20,28 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_674091ffef0964_89465028 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674b172e58d423_44190199 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_601382277674091ffeec319_16759964', 'header_banner');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1277505160674b172e58a143_92697650', 'header_banner');
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_252702817674091ffeecb57_09653062', 'header_nav');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_87387339674b172e58a925_19063991', 'header_nav');
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_472239681674091ffeed4d6_84019461', 'header_top');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1334613790674b172e58b215_77935369', 'header_top');
 }
 /* {block 'header_banner'} */
-class Block_601382277674091ffeec319_16759964 extends Smarty_Internal_Block
+class Block_1277505160674b172e58a143_92697650 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'header_banner' => 
   array (
-    0 => 'Block_601382277674091ffeec319_16759964',
+    0 => 'Block_1277505160674b172e58a143_92697650',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -49,7 +49,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 
   <div class="header-banner">
     <div class="banner-items">
-      <a href="2-home">The Black Friday! Startuja w piatek, 29.11!</a>
+      <a href="2-home">Tylko 3 dni - 20% zniżki na wszystko. Użyj kodu promocyjnego BLACKFRIDAY</a>
     </div>
   </div>
 <?php
@@ -57,12 +57,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'header_banner'} */
 /* {block 'header_nav'} */
-class Block_252702817674091ffeecb57_09653062 extends Smarty_Internal_Block
+class Block_87387339674b172e58a925_19063991 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'header_nav' => 
   array (
-    0 => 'Block_252702817674091ffeecb57_09653062',
+    0 => 'Block_87387339674b172e58a925_19063991',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -94,12 +94,12 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'header_nav'} */
 /* {block 'header_top'} */
-class Block_472239681674091ffeed4d6_84019461 extends Smarty_Internal_Block
+class Block_1334613790674b172e58b215_77935369 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'header_top' => 
   array (
-    0 => 'Block_472239681674091ffeed4d6_84019461',
+    0 => 'Block_1334613790674b172e58b215_77935369',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-13 20:29:42
+/* Smarty version 4.3.4, created on 2024-11-27 15:56:31
   from '/home/lijpwpfm/domains/desabor.pl/public_html/modules/desaborfourimages/views/templates/hook/four-images.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6735528660c767_86807442',
+  'unifunc' => 'content_6747877f0f4503_01774616',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f3df7638249f67df4b5f925c2e395f0ec4da45c7' => 
     array (
       0 => '/home/lijpwpfm/domains/desabor.pl/public_html/modules/desaborfourimages/views/templates/hook/four-images.tpl',
-      1 => 1731546329,
+      1 => 1732661623,
       2 => 'file',
     ),
   ),
@@ -20,14 +20,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6735528660c767_86807442 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6747877f0f4503_01774616 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="featured-products clearfix">
   <div class="four-images-container">
     <div class="four-images-wrapper">
       <a href="16-gourmet-products" class="image-block">
         <div class="image-block">
           <img src="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['module_dir']->value, ENT_QUOTES, 'UTF-8');?>
-views/img/img_1.jpg" alt="Example Image" />
+views/img/file.jpg" alt="Example Image" />
           <span class="image-title">Gourmet products</span>
         </div>
       </a>
@@ -41,8 +41,8 @@ views/img/img_2.jpg" alt="Example Image" />
       <a href="17-sweet-salty" class="image-block">
         <div class="image-block">
           <img src="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['module_dir']->value, ENT_QUOTES, 'UTF-8');?>
-views/img/img_3.jpg" alt="Example Image" />
-          <span class="image-title">Sweet & Salty</span>
+views/img/chips.jpg" alt="Example Image" />
+          <span class="image-title">Salt & Spices</span>
         </div>
       </a>
       <a href="#" class="image-block">
@@ -63,12 +63,12 @@ views/img/img_4.jpg" alt="Example Image" />
 </section>
 <div class="content-grid">
   <div class="text-block">
-    <p class="subtitle">DISCOVER</p>
+    <p class="subtitle">O NAS</p>
     <h2 class="title">DeSabor Spanish Gourmet & Wine: pasja do smaku i stylu życia</h2>
     <p class="description">
       DeSabor powstało z pasji do kulinariów, podróży i zamiłowania do śródziemnomorskiego stylu życia. Założycielem firmy jest rodowity Hiszpan, który postawił sobie za cel przybliżenie kultury, smaków i dziedzictwa Hiszpanii swoim polskim sąsiadom.
     </p>
-    <button class="btn">Dowiedz się więcej &rarr;</button>
+    <a href="content/4-about-us" class="btn">Dowiedz się więcej &rarr;</a>
   </div>
   <div class="image-block">
     <img src="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['module_dir']->value, ENT_QUOTES, 'UTF-8');?>
@@ -79,7 +79,7 @@ views/img/about-us.jpg" alt="Example Image" />
 views/img/golf.jpeg" alt="Example Image" />
   </div>
   <div class="text-block">
-    <p class="subtitle">BECOME A MEMBER</p>
+    <p class="subtitle">ZOSTAŃ CZŁONKIEM</p>
     <h2 class="title">Dołącz do DeSabor Club!</h2>
     <p class="description">
       DeSabor Club to dostęp do najwyższej jakości produktów, limitowanych edycji i ekskluzywnych promocji. Dołącz, zbieraj punkty i korzystaj z wyjątkowych wydarzeń dla członków!

@@ -23,6 +23,12 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 <section class="contact-form">
+  <div class="contact-form-description">
+    Zapraszamy do zapoznania się z ofertą przystąpienia do ‘DeSabor Wine Club’ żeby cieszyć się 15% rabatem na wszystkie wina i produkty a także otrzymywać ekskluzywne zaproszenia na wydarzenia w świecie win, sztuki czy designu. Jako organizator wydarzeń sportowych dajemy naszym klubowiczom pierwszeństwo w zapisach, uczestnictwo w DeSabor Premium Golf Cup czy innych sportowych zmaganiach. Członkostwo zapewnia również dostęp do oferty personalnego doradztwa i wybranych serwisów concierge.
+  <br>
+  <br>
+    Zapraszamy do świata DeSabor!
+  </div>
   <form action="{$urls.pages.contact}" method="post" {if $contact.allow_file_upload}enctype="multipart/form-data"{/if}>
     {if $notifications}
       <div class="col-xs-12 alert {if $notifications.nw_error}alert-danger{else}alert-success{/if}">
@@ -79,9 +85,6 @@
                 {/foreach}
               </select>
             </div>
-            <span class="col-md-3 form-control-comment">
-              {l s='optional' d='Shop.Forms.Help'}
-            </span>
           </div>
         {/if}
 
@@ -91,9 +94,6 @@
             <div class="col-md-6">
               <input id="file-upload" type="file" name="fileUpload" class="filestyle" data-buttonText="{l s='Choose file' d='Shop.Theme.Actions'}">
             </div>
-            <span class="col-md-3 form-control-comment">
-              {l s='optional' d='Shop.Forms.Help'}
-            </span>
           </div>
         {/if}
 
@@ -134,3 +134,12 @@
 
   </form>
 </section>
+<style>
+  form .form-control-label {
+    text-align: left!important;
+    width: 125px!important;
+  }
+  .contact-form-description {
+    margin-bottom: 30px;
+  }
+</style>

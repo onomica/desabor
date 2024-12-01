@@ -100,7 +100,7 @@ $this->refs = 'https://prestahero.com/';
     public function hookDisplayBackOfficeHeader()
     {
         $controller = Tools::getValue('controller');
-        $configure = Tools::getValue('configure'); 
+        $configure = Tools::getValue('configure');
         if(($controller=='AdminModules' && $configure== $this->name))
         {
             $this->context->controller->addCSS($this->_path.'views/css/admin.css');

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-13 20:30:59
+/* Smarty version 4.3.4, created on 2024-11-25 19:04:23
   from 'module:ps_linklistviewstemplateshooklinkblock.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673552d3c8f0f7_36348935',
+  'unifunc' => 'content_674510875a0b69_33833984',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673552d3c8f0f7_36348935 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674510875a0b69_33833984 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /home/lijpwpfm/domains/desabor.pl/public_html/themes/desabor/modules/ps_linklist/views/templates/hook/linkblock.tpl --><div class="col-md-6 links">
   <div class="row">
   <?php

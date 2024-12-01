@@ -172,8 +172,10 @@
     </div>
   </div>
   <div class="right-block">
-    <div class="map-container" style="height: 500px; width: 100%;">
-      <!-- Встраивание карты через iframe -->
+    <div class="above-map-image">
+      <img src="{$module_dir}views/img/gg.JPG" alt="The Cocktail" />
+    </div>
+    <div class="map-container" style="height: 250px; width: 100%;">
       <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.007877550159!2d20.9984942!3d52.2288965!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecd067273c509%3A0x92a092b1d9dea55d!2sDesabor%20Warsaw%20%7C%20Spanish%20Gourmet%20%26%20Wine!5e0!3m2!1sen!2spl!4v1698784787952!5m2!1sen!2spl"
               width="100%"

@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-22 08:42:38
+/* Smarty version 4.3.4, created on 2024-11-30 08:41:04
   from '/home/lijpwpfm/domains/desabor.pl/public_html/admin123/themes/new-theme/template/footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67408a4e536ce1_45316152',
+  'unifunc' => 'content_674b15f06aa532_34539525',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67408a4e536ce1_45316152 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674b15f06aa532_34539525 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="footer" class="bootstrap">
     <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>"displayBackOfficeFooter"),$_smarty_tpl ) );?>
 

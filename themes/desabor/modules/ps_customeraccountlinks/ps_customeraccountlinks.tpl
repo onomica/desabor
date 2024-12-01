@@ -23,6 +23,9 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  *}
 
+<div class="footer-image col-md-3">
+    <img src="https://desabor.pl/img/footer_logo.svg">
+</div>
 <div id="block_myaccount_infos" class="col-md-3 links wrapper">
   <p class="h3 myaccount-title hidden-sm-down">
     <a class="text-uppercase" href="{$urls.pages.my_account}" rel="nofollow">
@@ -67,4 +70,7 @@
         {hook h='displayMyAccountBlock'}
       {/if} 
 	</ul>
+    <div class="everblock everblock-4  col-12 col-md-12 everhook-hookDisplayMyAccountBlock" id="everblock-4" data-everposition="0" data-everhook="hookDisplayMyAccountBlock">
+        <p>The Black Friday! <br>Startuja w piatek, 29.11! <br><a href="#">sprawdź zasady promocji!</a></p>
+    </div>
 </div>

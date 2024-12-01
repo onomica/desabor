@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-13 20:28:39
+/* Smarty version 4.3.4, created on 2024-11-27 15:53:49
   from 'module:ps_facetedsearchviewstemplatesfrontcatalogactivefilters.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673552477b9931_98367066',
+  'unifunc' => 'content_674786dd93de46_88207163',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,14 +20,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673552477b9931_98367066 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674786dd93de46_88207163 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/lijpwpfm/domains/desabor.pl/public_html/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 <!-- begin /home/lijpwpfm/domains/desabor.pl/public_html/modules/ps_facetedsearch/views/templates/front/catalog/active-filters.tpl --><section id="js-active-search-filters" class="<?php if (smarty_modifier_count($_smarty_tpl->tpl_vars['activeFilters']->value)) {?>active_filters<?php } else { ?>hide<?php }?>">
   <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_366849943673552477ae4b6_65678087', 'active_filters_title');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_2011780841674786dd9313d6_50372737', 'active_filters_title');
 ?>
 
 
@@ -40,7 +40,7 @@ if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['filter']->value)
 $_smarty_tpl->tpl_vars['filter']->do_else = false;
 ?>
         <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1231303910673552477b66c9_10884238', 'active_filters_item');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_103247402674786dd939ee0_29050301', 'active_filters_item');
 ?>
 
       <?php
@@ -51,12 +51,12 @@ $_smarty_tpl->smarty->ext->_foreach->restore($_smarty_tpl, 1);?>
 </section>
 <!-- end /home/lijpwpfm/domains/desabor.pl/public_html/modules/ps_facetedsearch/views/templates/front/catalog/active-filters.tpl --><?php }
 /* {block 'active_filters_title'} */
-class Block_366849943673552477ae4b6_65678087 extends Smarty_Internal_Block
+class Block_2011780841674786dd9313d6_50372737 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'active_filters_title' => 
   array (
-    0 => 'Block_366849943673552477ae4b6_65678087',
+    0 => 'Block_2011780841674786dd9313d6_50372737',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
@@ -70,12 +70,12 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/lijpwpfm/domains/desab
 }
 /* {/block 'active_filters_title'} */
 /* {block 'active_filters_item'} */
-class Block_1231303910673552477b66c9_10884238 extends Smarty_Internal_Block
+class Block_103247402674786dd939ee0_29050301 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'active_filters_item' => 
   array (
-    0 => 'Block_1231303910673552477b66c9_10884238',
+    0 => 'Block_103247402674786dd939ee0_29050301',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {

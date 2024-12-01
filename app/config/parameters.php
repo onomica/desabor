@@ -13,15 +13,15 @@
     'mailer_user' => NULL,
     'mailer_password' => NULL,
     'secret' => 'p0o8nbsxtcph0w7uopwadsiadljgmilmkao9p8yscxrtx9bvwze6feellnslrcxq',
-    'ps_caching' => 'CacheMemcache',
-    'ps_cache_enable' => false,
+    'ps_caching' => 'CacheMemcached',
+    'ps_cache_enable' => true,
     'ps_creation_date' => '2024-11-08',
     'locale' => 'en-US',
     'use_debug_toolbar' => true,
     'cookie_key' => 'ndrqunpy70u9516qneb0kgjssqaxl9key42rndbywhq4isrxdqqjwrlomb6t1fno',
     'cookie_iv' => '2ayu94k8wppreqieq3vox7pt49xvzkqx',
     'new_cookie_key' => 'def0000020d72f97b8cd80f23c602bfcc84e7181a941b031f831d8e90a4fcbf46a37e27f150459c36075366a82e4c884103f1c0611a1f234fc496319dc342b2933771cf0',
-	'api_public_key' => '-----BEGIN PUBLIC KEY-----
+    'api_public_key' => '-----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqgvxzEadaI4v+B9O0w/B
 +BtRuUxOyRHpIF3k18tjzh0WALb3xai+Ym5CFhGZ8vUgNEHNBfK4NSZYuO1QB67Y
 j4TD8DggmPpq8Fq576M+P5BsHhhu53/m4UcgGLL+8AEgLlslWz03VwPUNaM4akEU
@@ -31,7 +31,7 @@ ReziL44OriFdyfmGqm+ZI88V/m1OWpHqjougDTOoLF4ANCe8RYnZ1BdtAc/+drKA
 fwIDAQAB
 -----END PUBLIC KEY-----
 ',
-	'api_private_key' => '-----BEGIN PRIVATE KEY-----
+    'api_private_key' => '-----BEGIN PRIVATE KEY-----
 MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCqC/HMRp1oji/4
 H07TD8H4G1G5TE7JEekgXeTXy2POHRYAtvfFqL5ibkIWEZny9SA0Qc0F8rg1Jli4
 7VAHrtiPhMPwOCCY+mrwWrnvoz4/kGweGG7nf+bhRyAYsv7wASAuWyVbPTdXA9Q1

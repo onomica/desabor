@@ -24,24 +24,30 @@
  *}
 
 <div class="block_newsletter col-lg-8 col-md-12 col-sm-12" id="blockEmailSubscription_{$hookName}">
-  <div class="test">
-    <p id="block-newsletter-label" class="col-md-5 col-xs-12">{l s='Get our latest news and special sales' d='Shop.Theme.Global'}</p>
-    <div class="col-md-7 col-xs-12">
+  <div class="block-newsletter-wrapper">
+    <div id="block-newsletter-label" class="col-md-5 col-xs-12">
+      {l s='Get our latest news and special sales' d='Shop.Theme.Global'}
+      <p>
+        {if $conditions}
+          <p>{$conditions}</p>
+        {/if}
+      </p>
+    </div>
+    <div class="col-md-7 col-xs-12 newsletter-block">
+      <div class="inst-mini-images">
+        <a href="https://www.instagram.com/desabor_golf/profilecard/?igsh=eTNucjFvcm01bjk5">
+          <img src="{$urls.theme_assets}img/inst_1.JPEG" alt="Your Image">
+        </a>
+        <a href="https://coravinpolska.pl">
+          <img src="{$urls.theme_assets}img/inst_2.JPEG" alt="Your Image">
+        </a>
+        <a href="https://www.instagram.com/desabor_warsaw/profilecard/?igsh=MWg0cWNmNDU2ZjZ4YQ==">
+          <img src="{$urls.theme_assets}img/inst_3.JPEG" alt="Your Image">
+        </a>
+      </div>
       <form action="{$urls.current_url}#blockEmailSubscription_{$hookName}" method="post">
         <div class="row">
           <div class="col-xs-12">
-            <input
-              class="btn btn-primary float-xs-right hidden-xs-down"
-              name="submitNewsletter"
-              type="submit"
-              value="{l s='Subscribe' d='Shop.Theme.Actions'}"
-            >
-            <input
-              class="btn btn-primary float-xs-right hidden-sm-up"
-              name="submitNewsletter"
-              type="submit"
-              value="{l s='OK' d='Shop.Theme.Actions'}"
-            >
             <div class="input-wrapper">
               <input
                 name="email"
@@ -52,23 +58,21 @@
                 required
               >
             </div>
+            <input
+                    class="btn btn-primary float-xs-right hidden-xs-down"
+                    name="submitNewsletter"
+                    type="submit"
+                    value="{l s='Subscribe' d='Shop.Theme.Actions'}"
+            >
+            <input
+                    class="btn btn-primary float-xs-right hidden-sm-up"
+                    name="submitNewsletter"
+                    type="submit"
+                    value="{l s='OK' d='Shop.Theme.Actions'}"
+            >
             <input type="hidden" name="blockHookName" value="{$hookName}" />
             <input type="hidden" name="action" value="0">
             <div class="clearfix"></div>
-          </div>
-          <div class="col-xs-12">
-              {if $conditions}
-                <p>{$conditions}</p>
-              {/if}
-              {if $msg}
-                <p class="alert {if $nw_error}alert-danger{else}alert-success{/if}">
-                  {$msg}
-                </p>
-              {/if}
-              {hook h='displayNewsletterRegistration'}
-              {if isset($id_module)}
-                {hook h='displayGDPRConsent' id_module=$id_module}
-              {/if}
           </div>
         </div>
       </form>

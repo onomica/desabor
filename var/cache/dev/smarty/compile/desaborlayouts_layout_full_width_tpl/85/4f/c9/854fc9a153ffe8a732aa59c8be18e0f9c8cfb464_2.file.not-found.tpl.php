@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-13 20:30:59
+/* Smarty version 4.3.4, created on 2024-11-25 19:04:23
   from '/home/lijpwpfm/domains/desabor.pl/public_html/themes/classic/templates/errors/not-found.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673552d3c28987_90296975',
+  'unifunc' => 'content_67451087555cc5_13958936',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,19 +20,19 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673552d3c28987_90296975 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67451087555cc5_13958936 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
 <section id="content" class="page-content page-not-found">
   <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1313958247673552d3c25de6_20307400', 'page_content');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_3879182206745108754fc90_59927888', 'page_content');
 ?>
 
 </section>
 <?php }
 /* {block "error_content"} */
-class Block_13125699673552d3c26279_64908672 extends Smarty_Internal_Block
+class Block_143546397067451087550899_83921661 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -51,7 +51,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block "error_content"} */
 /* {block 'search'} */
-class Block_1156822748673552d3c27992_60276285 extends Smarty_Internal_Block
+class Block_709819969674510875540f8_74858061 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -63,7 +63,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'search'} */
 /* {block 'hook_not_found'} */
-class Block_1214233754673552d3c28105_65752396 extends Smarty_Internal_Block
+class Block_107885242267451087554e54_55318381 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -75,41 +75,41 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 }
 /* {/block 'hook_not_found'} */
 /* {block 'page_content'} */
-class Block_1313958247673552d3c25de6_20307400 extends Smarty_Internal_Block
+class Block_3879182206745108754fc90_59927888 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'page_content' => 
   array (
-    0 => 'Block_1313958247673552d3c25de6_20307400',
+    0 => 'Block_3879182206745108754fc90_59927888',
   ),
   'error_content' => 
   array (
-    0 => 'Block_13125699673552d3c26279_64908672',
+    0 => 'Block_143546397067451087550899_83921661',
   ),
   'search' => 
   array (
-    0 => 'Block_1156822748673552d3c27992_60276285',
+    0 => 'Block_709819969674510875540f8_74858061',
   ),
   'hook_not_found' => 
   array (
-    0 => 'Block_1214233754673552d3c28105_65752396',
+    0 => 'Block_107885242267451087554e54_55318381',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
 
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_13125699673552d3c26279_64908672', "error_content", $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_143546397067451087550899_83921661', "error_content", $this->tplIndex);
 ?>
 
 
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1156822748673552d3c27992_60276285', 'search', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_709819969674510875540f8_74858061', 'search', $this->tplIndex);
 ?>
 
 
     <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1214233754673552d3c28105_65752396', 'hook_not_found', $this->tplIndex);
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_107885242267451087554e54_55318381', 'hook_not_found', $this->tplIndex);
 ?>
 
   <?php

@@ -18,7 +18,17 @@
 {*  </div>*}
 {*</div>*}
 
-
+<section class="featured-products clearfix">
+  <h2 class="h2 products-section-title text-uppercase">
+    Popularne produkty
+  </h2>
+  [ph-product-cms id="1"]
+  <div class="custom-all-products-link">
+    <a class="all-product-link float-xs-left float-md-right h4" href="2-home">
+      {l s='All products' d='Shop.Theme.Catalog'}<i class="material-icons">&#xE315;</i>
+    </a>
+  </div>
+</section>
 <div class="content-grid">
   <div class="image-block">
     <img src="{$module_dir}views/img/gift22.jpeg"/>

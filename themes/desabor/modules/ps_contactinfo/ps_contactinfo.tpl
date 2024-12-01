@@ -49,7 +49,10 @@
         d='Shop.Theme.Global'
       }
     {/if}
-    {if $contact_infos.fax}
+      <br>
+      Magazyn<br>
+      ul. Marywsilska 34d <br>03-228 Warszawa
+      {if $contact_infos.fax}
       <br>
       {* [1][/1] is for a HTML tag. *}
       {l

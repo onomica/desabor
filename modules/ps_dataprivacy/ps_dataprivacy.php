@@ -129,7 +129,7 @@ class Ps_Dataprivacy extends Module
                 '_raw' => true,
                 '[1]' => '<br>',
                 '[2]' => '<em>',
-                '%message%' => Configuration::get('CUSTPRIV_MSG_AUTH', $this->context->language->id),
+                '%message%' => 'Dane osobowe, które podajesz, są wykorzystywane do odpowiadania na zapytania, przetwarzania zamówień lub umożliwienia dostępu do określonych informacji. Masz prawo do modyfikacji i usunięcia wszystkich danych osobowych znajdujących się na stronie "Moje konto".',
                 '[/2]' => '</em>',
             ],
             'Modules.Dataprivacy.Shop'
@@ -223,7 +223,7 @@ class Ps_Dataprivacy extends Module
         foreach ($languages as $lang) {
             Configuration::updateValue('CUSTPRIV_MSG_AUTH', [
                 $lang['id_lang'] => $this->trans(
-                    'The personal data you provide is used to answer queries, process orders or allow access to specific information. You have the right to modify and delete all the personal information found in the "My Account" page.',
+                    'Dane osobowe, które podajesz, są wykorzystywane do odpowiadania na zapytania, przetwarzania zamówień lub umożliwienia dostępu do określonych informacji. Masz prawo do modyfikacji i usunięcia wszystkich danych osobowych znajdujących się na stronie "Moje konto".',
                     [],
                     'Modules.Dataprivacy.Admin',
                     $lang['locale']),

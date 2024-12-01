@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-22 08:42:43
+/* Smarty version 4.3.4, created on 2024-11-30 08:41:03
   from 'module:ps_contactinfops_contactinfo.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67408a53a6a7d2_72376462',
+  'unifunc' => 'content_674b15efbce954_25256549',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9992f3fe04dd41bcec1a2029cf07bead637caf4d' => 
     array (
       0 => 'module:ps_contactinfops_contactinfo.tpl',
-      1 => 1708963242,
+      1 => 1732653254,
       2 => 'module',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67408a53a6a7d2_72376462 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674b15efbce954_25256549 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/lijpwpfm/domains/desabor.pl/public_html/vendor/smarty/smarty/libs/plugins/modifier.replace.php','function'=>'smarty_modifier_replace',),1=>array('file'=>'/home/lijpwpfm/domains/desabor.pl/public_html/vendor/smarty/smarty/libs/plugins/function.mailto.php','function'=>'smarty_function_mailto',),));
 ?>
 
@@ -49,7 +49,10 @@ $_prefixVariable1=ob_get_clean();
 echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Call us: [1]%phone%[/1]','sprintf'=>array('[1]'=>"<a href='tel:".$_prefixVariable1."'>",'[/1]'=>'</a>','%phone%'=>$_smarty_tpl->tpl_vars['contact_infos']->value['phone']),'d'=>'Shop.Theme.Global'),$_smarty_tpl ) );?>
 
     <?php }?>
-    <?php if ($_smarty_tpl->tpl_vars['contact_infos']->value['fax']) {?>
+      <br>
+      Magazyn<br>
+      ul. Marywsilska 34d <br>03-228 Warszawa
+      <?php if ($_smarty_tpl->tpl_vars['contact_infos']->value['fax']) {?>
       <br>
             <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Fax: [1]%fax%[/1]','sprintf'=>array('[1]'=>'<span>','[/1]'=>'</span>','%fax%'=>$_smarty_tpl->tpl_vars['contact_infos']->value['fax']),'d'=>'Shop.Theme.Global'),$_smarty_tpl ) );?>
 

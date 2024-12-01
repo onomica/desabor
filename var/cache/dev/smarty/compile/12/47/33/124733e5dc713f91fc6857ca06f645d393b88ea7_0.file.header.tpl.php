@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-13 20:30:56
+/* Smarty version 4.3.4, created on 2024-11-25 19:04:21
   from '/home/lijpwpfm/domains/desabor.pl/public_html/admin123/themes/new-theme/template/header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673552d0c299a6_23800692',
+  'unifunc' => 'content_67451085bfaed2_45164543',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673552d0c299a6_23800692 (Smarty_Internal_Template $_smarty_tpl) {
+function content_67451085bfaed2_45164543 (Smarty_Internal_Template $_smarty_tpl) {
 ?><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=<?php echo (isset($_smarty_tpl->tpl_vars['viewport_scale']->value)) ? $_smarty_tpl->tpl_vars['viewport_scale']->value : '1';?>
 ">
@@ -119,11 +119,11 @@ echo call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'addsl
 
 <?php ob_start();
 echo __PS_BASE_URI__;
-$_prefixVariable1=ob_get_clean();
+$_prefixVariable2=ob_get_clean();
 ob_start();
 echo basename(_PS_ADMIN_DIR_);
-$_prefixVariable2=ob_get_clean();
-$_smarty_tpl->_assignInScope('admin_path', $_prefixVariable1.$_prefixVariable2."/themes/new-theme/public/");?>
+$_prefixVariable3=ob_get_clean();
+$_smarty_tpl->_assignInScope('admin_path', $_prefixVariable2.$_prefixVariable3."/themes/new-theme/public/");?>
 
 <?php $_smarty_tpl->_assignInScope('preloadFilePath', "../public/preload.tpl");?>
 

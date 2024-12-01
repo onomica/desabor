@@ -12,13 +12,13 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
             'repositoryClass' => [
                 'PrestaShopBundle\\Entity\\Repository\\AuthorizedApplicationRepository',
             ],
-            'fields' => [
-                2 => 'name',
-            ],
             'groups' => [
                 2 => [
                     'Default',
                 ],
+            ],
+            'fields' => [
+                2 => 'name',
             ],
         ],
     ],

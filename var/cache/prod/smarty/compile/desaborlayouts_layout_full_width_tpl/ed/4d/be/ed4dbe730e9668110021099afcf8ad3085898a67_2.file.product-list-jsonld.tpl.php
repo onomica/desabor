@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-22 09:43:35
+/* Smarty version 4.3.4, created on 2024-11-30 09:29:23
   from '/home/lijpwpfm/domains/desabor.pl/public_html/themes/classic/templates/_partials/microdata/product-list-jsonld.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67409897a3d1d3_22162248',
+  'unifunc' => 'content_674b2143653fb1_22850850',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67409897a3d1d3_22162248 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674b2143653fb1_22850850 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
  type="application/ld+json">
   {

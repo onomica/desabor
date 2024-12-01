@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-22 08:42:38
+/* Smarty version 4.3.4, created on 2024-11-30 08:41:04
   from '/home/lijpwpfm/domains/desabor.pl/public_html/admin123/themes/new-theme/template/components/layout/mobile_quickaccess.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67408a4e581498_88813528',
+  'unifunc' => 'content_674b15f072c116_83693363',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67408a4e581498_88813528 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674b15f072c116_83693363 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="component-search-quickaccess d-none">
   <p class="component-search-title"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Quick Access','d'=>'Admin.Navigation.Header'),$_smarty_tpl ) );?>
 </p>

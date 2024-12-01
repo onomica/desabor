@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-22 09:42:32
+/* Smarty version 4.3.4, created on 2024-11-30 08:41:12
   from '/home/lijpwpfm/domains/desabor.pl/public_html/themes/javascript.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_674098589f4691_58758193',
+  'unifunc' => 'content_674b15f87d8b92_75616117',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '10a7192a16ec0d6034c250b0ec73506b6e70a9d1' => 
     array (
       0 => '/home/lijpwpfm/domains/desabor.pl/public_html/themes/javascript.tpl',
-      1 => 1727430256,
+      1 => 1732578856,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_674098589f4691_58758193 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674b15f87d8b92_75616117 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/home/lijpwpfm/domains/desabor.pl/public_html/vendor/smarty/smarty/libs/plugins/modifier.count.php','function'=>'smarty_modifier_count',),));
 if ((isset($_smarty_tpl->tpl_vars['js_def']->value)) && is_array($_smarty_tpl->tpl_vars['js_def']->value) && smarty_modifier_count($_smarty_tpl->tpl_vars['js_def']->value)) {
 echo '<script'; ?>

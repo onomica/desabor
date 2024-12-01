@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-13 20:30:59
+/* Smarty version 4.3.4, created on 2024-11-27 15:53:28
   from 'module:ps_emailsubscriptionviewstemplateshookps_emailsubscription.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_673552d3c437b4_82977597',
+  'unifunc' => 'content_674786c8324087_78458796',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '307dc6bd4724d29d1572cc301dd7148e962604ef' => 
     array (
       0 => 'module:ps_emailsubscriptionviewstemplateshookps_emailsubscription.tpl',
-      1 => 1730481054,
+      1 => 1732660983,
       2 => 'module',
     ),
   ),
@@ -20,33 +20,41 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_673552d3c437b4_82977597 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674786c8324087_78458796 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- begin /home/lijpwpfm/domains/desabor.pl/public_html/themes/desabor/modules/ps_emailsubscription/views/templates/hook/ps_emailsubscription.tpl -->
 <div class="block_newsletter col-lg-8 col-md-12 col-sm-12" id="blockEmailSubscription_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['hookName']->value, ENT_QUOTES, 'UTF-8');?>
 ">
-  <div class="row">
-    <p id="block-newsletter-label" class="col-md-5 col-xs-12"><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Get our latest news and special sales','d'=>'Shop.Theme.Global'),$_smarty_tpl ) );?>
+  <div class="block-newsletter-wrapper">
+    <div id="block-newsletter-label" class="col-md-5 col-xs-12">
+      <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Get our latest news and special sales','d'=>'Shop.Theme.Global'),$_smarty_tpl ) );?>
+
+      <p>
+        <?php if ($_smarty_tpl->tpl_vars['conditions']->value) {?>
+          <p><?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['conditions']->value, ENT_QUOTES, 'UTF-8');?>
 </p>
-    <div class="col-md-7 col-xs-12">
+        <?php }?>
+      </p>
+    </div>
+    <div class="col-md-7 col-xs-12 newsletter-block">
+      <div class="inst-mini-images">
+        <a href="https://www.instagram.com/desabor_golf/profilecard/?igsh=eTNucjFvcm01bjk5">
+          <img src="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['urls']->value['theme_assets'], ENT_QUOTES, 'UTF-8');?>
+img/inst_1.JPEG" alt="Your Image">
+        </a>
+        <a href="https://coravinpolska.pl">
+          <img src="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['urls']->value['theme_assets'], ENT_QUOTES, 'UTF-8');?>
+img/inst_2.JPEG" alt="Your Image">
+        </a>
+        <a href="https://www.instagram.com/desabor_warsaw/profilecard/?igsh=MWg0cWNmNDU2ZjZ4YQ==">
+          <img src="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['urls']->value['theme_assets'], ENT_QUOTES, 'UTF-8');?>
+img/inst_3.JPEG" alt="Your Image">
+        </a>
+      </div>
       <form action="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['urls']->value['current_url'], ENT_QUOTES, 'UTF-8');?>
 #blockEmailSubscription_<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['hookName']->value, ENT_QUOTES, 'UTF-8');?>
 " method="post">
         <div class="row">
           <div class="col-xs-12">
-            <input
-              class="btn btn-primary float-xs-right hidden-xs-down"
-              name="submitNewsletter"
-              type="submit"
-              value="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Subscribe','d'=>'Shop.Theme.Actions'),$_smarty_tpl ) );?>
-"
-            >
-            <input
-              class="btn btn-primary float-xs-right hidden-sm-up"
-              name="submitNewsletter"
-              type="submit"
-              value="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'OK','d'=>'Shop.Theme.Actions'),$_smarty_tpl ) );?>
-"
-            >
             <div class="input-wrapper">
               <input
                 name="email"
@@ -59,28 +67,24 @@ function content_673552d3c437b4_82977597 (Smarty_Internal_Template $_smarty_tpl)
                 required
               >
             </div>
+            <input
+                    class="btn btn-primary float-xs-right hidden-xs-down"
+                    name="submitNewsletter"
+                    type="submit"
+                    value="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Subscribe','d'=>'Shop.Theme.Actions'),$_smarty_tpl ) );?>
+"
+            >
+            <input
+                    class="btn btn-primary float-xs-right hidden-sm-up"
+                    name="submitNewsletter"
+                    type="submit"
+                    value="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'OK','d'=>'Shop.Theme.Actions'),$_smarty_tpl ) );?>
+"
+            >
             <input type="hidden" name="blockHookName" value="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['hookName']->value, ENT_QUOTES, 'UTF-8');?>
 " />
             <input type="hidden" name="action" value="0">
             <div class="clearfix"></div>
-          </div>
-          <div class="col-xs-12">
-              <?php if ($_smarty_tpl->tpl_vars['conditions']->value) {?>
-                <p><?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['conditions']->value, ENT_QUOTES, 'UTF-8');?>
-</p>
-              <?php }?>
-              <?php if ($_smarty_tpl->tpl_vars['msg']->value) {?>
-                <p class="alert <?php if ($_smarty_tpl->tpl_vars['nw_error']->value) {?>alert-danger<?php } else { ?>alert-success<?php }?>">
-                  <?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['msg']->value, ENT_QUOTES, 'UTF-8');?>
-
-                </p>
-              <?php }?>
-              <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>'displayNewsletterRegistration'),$_smarty_tpl ) );?>
-
-              <?php if ((isset($_smarty_tpl->tpl_vars['id_module']->value))) {?>
-                <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>'displayGDPRConsent','id_module'=>$_smarty_tpl->tpl_vars['id_module']->value),$_smarty_tpl ) );?>
-
-              <?php }?>
           </div>
         </div>
       </form>

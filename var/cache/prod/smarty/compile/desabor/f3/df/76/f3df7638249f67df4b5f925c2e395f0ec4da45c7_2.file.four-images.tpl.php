@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-22 08:42:43
+/* Smarty version 4.3.4, created on 2024-11-30 08:41:36
   from '/home/lijpwpfm/domains/desabor.pl/public_html/modules/desaborfourimages/views/templates/hook/four-images.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_67408a5370af54_87259322',
+  'unifunc' => 'content_674b16101f2de3_74487889',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f3df7638249f67df4b5f925c2e395f0ec4da45c7' => 
     array (
       0 => '/home/lijpwpfm/domains/desabor.pl/public_html/modules/desaborfourimages/views/templates/hook/four-images.tpl',
-      1 => 1732232290,
+      1 => 1732752902,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_67408a5370af54_87259322 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674b16101f2de3_74487889 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="featured-products clearfix">
   <div class="four-images-container">
     <div class="four-images-wrapper">
@@ -68,7 +68,7 @@ views/img/img_4.jpg" alt="Example Image" />
     <p class="description">
       DeSabor powstało z pasji do kulinariów, podróży i zamiłowania do śródziemnomorskiego stylu życia. Założycielem firmy jest rodowity Hiszpan, który postawił sobie za cel przybliżenie kultury, smaków i dziedzictwa Hiszpanii swoim polskim sąsiadom.
     </p>
-    <button class="btn">Dowiedz się więcej &rarr;</button>
+    <a href="content/4-about-us" class="btn">Dowiedz się więcej &rarr;</a>
   </div>
   <div class="image-block">
     <img src="<?php echo htmlspecialchars((string) $_smarty_tpl->tpl_vars['module_dir']->value, ENT_QUOTES, 'UTF-8');?>
@@ -84,7 +84,7 @@ views/img/golf.jpeg" alt="Example Image" />
     <p class="description">
       DeSabor Club to dostęp do najwyższej jakości produktów, limitowanych edycji i ekskluzywnych promocji. Dołącz, zbieraj punkty i korzystaj z wyjątkowych wydarzeń dla członków!
     </p>
-    <button class="btn">Zapisz się teraz &rarr;</button>
+    <a href="contact-us" class="btn">Zapisz się teraz &rarr;</a>
   </div>
 </div>
 

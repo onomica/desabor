@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.3.4, created on 2024-11-22 10:52:41
+/* Smarty version 4.3.4, created on 2024-11-30 15:45:34
   from '/home/lijpwpfm/domains/desabor.pl/public_html/modules/ets_blog/views/templates/hook/single_post.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.3.4',
-  'unifunc' => 'content_6740a8c99d1f07_56678530',
+  'unifunc' => 'content_674b796e186243_21065731',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6740a8c99d1f07_56678530 (Smarty_Internal_Template $_smarty_tpl) {
+function content_674b796e186243_21065731 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
  type="text/javascript">
     ets_blog_report_url = '<?php echo $_smarty_tpl->tpl_vars['report_url']->value;?>

@@ -42,6 +42,28 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
                 ],
             ],
         ],
+        'ApiPlatform\\Metadata\\Operation' => [
+            'shortName' => [
+                2 => 'HookStatus',
+            ],
+            'class' => [
+                2 => 'PrestaShopBundle\\Api\\Resource\\HookStatus',
+            ],
+            'filters' => [
+                2 => [],
+            ],
+            'name' => [
+                2 => '_api_/hook-status/{id}_get',
+            ],
+            'provider' => [
+                2 => 'PrestaShopBundle\\Api\\StateProvider\\HookStatusProvider',
+            ],
+            'extraProperties' => [
+                2 => [
+                    'user_defined_uri_template' => true,
+                ],
+            ],
+        ],
         'ApiPlatform\\Metadata\\HttpOperation' => [
             'method' => [
                 2 => 'GET',
@@ -88,28 +110,6 @@ return [PHP_INT_MAX, static function () { return \Symfony\Component\VarExporter\
             'exceptionToStatus' => [
                 2 => [
                     'PrestaShop\\PrestaShop\\Core\\Domain\\Hook\\Exception\\HookNotFoundException' => 404,
-                ],
-            ],
-        ],
-        'ApiPlatform\\Metadata\\Operation' => [
-            'shortName' => [
-                2 => 'HookStatus',
-            ],
-            'class' => [
-                2 => 'PrestaShopBundle\\Api\\Resource\\HookStatus',
-            ],
-            'filters' => [
-                2 => [],
-            ],
-            'name' => [
-                2 => '_api_/hook-status/{id}_get',
-            ],
-            'provider' => [
-                2 => 'PrestaShopBundle\\Api\\StateProvider\\HookStatusProvider',
-            ],
-            'extraProperties' => [
-                2 => [
-                    'user_defined_uri_template' => true,
                 ],
             ],
         ],
